@@ -1,0 +1,18 @@
+typed: false
+
+def DoorProblem
+    Doors = [false, false, false]
+    WinningDoor = rand(3)
+    Doors[WinningDoor] = true
+    ChoosenDoor = rand(3)
+    
+    puts "Door " + ChonsenDoor + ", has been choosen."
+    
+    if 
+   if ChoosenDoor == WinningDoor
+    puts "The right door was choosen."
+
+   else
+    puts "The wrond door was choosen."
+   end
+end
